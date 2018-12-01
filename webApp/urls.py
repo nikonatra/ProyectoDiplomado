@@ -8,4 +8,6 @@ urlpatterns = [
      url(r'^index/$', views.index, name='index'),
      url(r'^analistas/$', views.fanalistas, name='fanalistas'),
      url(r'^entidades/$', views.fentidades, name='fentidades'),
+     url(r'^comercializadoras/$', views.fcomercializadoras, name='fcomercializadoras'),
+     url(r'^provedores/$', views.fprovedores, name='fprovedores'),
 ]
